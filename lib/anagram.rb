@@ -9,6 +9,6 @@ class Anagram
   def match(words)
     binding.pry
     words.select {|word| word.split("").sort == @first_word.split("").sort}
-    binding.pry
+    #binding.pry
   end
 end
