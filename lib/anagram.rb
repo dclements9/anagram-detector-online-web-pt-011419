@@ -8,7 +8,9 @@ class Anagram
   end
   def match(words)
     #binding.pry
-    words.select {|word| word.split("").sort == @first_word.split("").sort}
+    word_array_test = []
+    words.select {|word| word_array_test << word.split("").sort
+    #words.select {|word| word.split("").sort == @first_word.split("").sort}
     binding.pry
   end
 end
